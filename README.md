@@ -5,6 +5,7 @@ a php code coverage tool base on http://phpcoverage.sourceforge.net/
 
 
 Usage
+
 Generate the XML file to record the data for code coverage
 
 1. Download the folder and put it in your root of your application

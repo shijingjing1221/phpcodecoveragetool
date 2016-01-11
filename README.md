@@ -20,4 +20,4 @@ Call your services as same as before, and then the xml file will be generated in
 
 Generate Code Coverage report
 
-Call http://your_app_host/phpcc.php in your browser or run php phpcc.php command(recommand), the code coverage report will be generated in phpcc_report. The phpcc.php will give the code coverage link, or you can directly check the report with http://your_app_host/phpcc_report/index.html
+Call <i>http://your_app_host/phpcc.php</i> in your browser or run <pre><code>php phpcc.php</code></pre> command(recommand), the code coverage report will be generated in phpcc_report. The phpcc.php will give the code coverage link, or you can directly check the report with http://your_app_host/phpcc_report/index.html

@@ -4,9 +4,9 @@ phpcodecoveragetool
 a php code coverage tool base on http://phpcoverage.sourceforge.net/
 
 
-Usage
+<h1>Usage</h1>
 
-Generate the XML file to record the data for code coverage
+<h2>Generate the XML file to record the data for code coverage</h2>
 
 1. Download the folder and put it in your root of your application
 2. Require your root file of your application in Line 3 of index.php
@@ -18,6 +18,8 @@ sudo chown www-data -R phpcc_xml phpcc_report phpcc_src(Ubuntu) or sudo chown ap
 
 Call your services as same as before, and then the xml file will be generated in "phpcc_xml"
 
-Generate Code Coverage report
+<h2>Generate Code Coverage report</h2>
 
-Call <i>http://your_app_host/phpcc.php</i> in your browser or run <pre><code>php phpcc.php</code></pre> command(recommand), the code coverage report will be generated in phpcc_report. The phpcc.php will give the code coverage link, or you can directly check the report with http://your_app_host/phpcc_report/index.html
+Call <i><a>http://your_app_host/phpcc.php</a></i> in your browser or run the following command(recommand), The code coverage report will be generated in phpcc_report.
+<pre><code>php phpcc.php</code></pre> 
+The phpcc.php will give the code coverage link at the end of execution.You can directly check the report with <i><a>http://your_app_host/phpcc_report/index.html</a></i>
